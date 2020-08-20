@@ -1,0 +1,110 @@
+{ 
+	"name": "JPMORGAN CHASE & CO.", 
+	"parent": "null", "country_name": 
+	"United States", 
+	"function": "Bank Holding Company", 
+	"link_id": "#", 
+	"children": [ 
+		{ 
+			"name": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION", 
+			"parent": "JPMORGAN CHASE & CO.", 
+			"country_name": "United States", 
+			"function": "Commercial Banking", 
+			"link_id": "4", 
+			"children": [ 
+				{ 
+					"name": "J.P. MORGAN INTERNATIONAL FINANCE LIMITED", 
+					"parent": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION", 
+					"country_name": "United States", 
+					"function": "International Trade Financing", 
+					"link_id": "6", 
+					"children": [ 
+						{ 
+							"name": "J.P. MORGAN BANK LUXEMBOURG S.A.", 
+							"parent": "J.P. MORGAN INTERNATIONAL FINANCE LIMITED",
+							"country_name": "Luxembourg", 
+							"function": "Commercial Banking",
+							"link_id": "11" }, 
+						{ 
+							"name": "J.P. MORGAN BANK CANADA", 
+							"parent": "J.P. MORGAN INTERNATIONAL FINANCE LIMITED", 
+							"country_name": "Canada", 
+							"function": "Commercial Banking", 
+							"link_id": "12" } 
+						] 
+				}, 
+				{
+					"name": "CHASE MORTGAGE HOLDINGS, INC.", 
+					"parent": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION", 
+					"country_name": "United States", 
+					"function": "Real Estate Credit", 
+					"link_id": "7" 
+				}, 
+				{ 
+					"name": "JPMC MORTGAGE FUNDING", 
+					"parent": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION", 
+					"country_name": "United States", 
+					"function": "Other Financial Vehicles", 
+					"link_id": "8" 
+				} 
+			] 
+		}, 
+		{ 
+			"name": "BANK ONE CAPITAL III", 
+			"parent": "JPMORGAN CHASE & CO.", 
+			"country_name": "United States", 
+			"function": "Other Financial Vehicles", 
+			"link_id": "1" 
+		}, 
+		{ 
+			"name": "BRIDGE TRUST COMPANY LIMITED", 
+			"parent": "JPMORGAN CHASE & CO.", 
+			"country_name": "United States", 
+			"function": "Trust, Fiduciary, and Custody Activities", 
+			"link_id": "2" 
+		}, 
+		{ 
+			"name": "CROSS CREEK MANAGEMENT COMPANY, L.L.C.", 
+			"parent": "JPMORGAN CHASE & CO.", 
+			"country_name": "United States", 
+			"function": "Other Financial Vehicles", 
+			"link_id": "3" 
+		}, 
+		{ 
+			"name": "JPMORGAN CHASE HOLDINGS LLC", 
+			"parent": "JPMORGAN CHASE & CO.", 
+			"country_name": "United States", 
+			"function": "Offices of Bank Holding Companies", 
+			"link_id": "5", 
+			"children": [ 
+				{ 
+					"name": "JPMORGAN ASSET MANAGEMENT HOLDINGS INC.", 
+					"parent": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION", 
+					"country_name": "United States", 
+					"function": "Offices of Other Holding Companies", 
+					"link_id": "9" 
+				}, 
+				{ 
+					"name": "J.P. MORGAN BROKER-DEALER HOLDINGS INC.", 
+					"parent": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION", 
+					"country_name": "United States", 
+					"function": "Offices of Other Holding Companies", 
+					"link_id": "10", 
+					"children": [ 
+						{ 
+							"name": "J.P. MORGAN SECURITIES LLC", 
+							"parent": "J.P. MORGAN BROKER-DEALER HOLDINGS INC.", 
+							"country_name": "United States", 
+							"function": "Investment Banking and Securities Dealing", 
+							"link_id": "13" 
+						} 
+					] 
+				} 
+			] 
+		} 
+	] 
+}
+
+
+
+
